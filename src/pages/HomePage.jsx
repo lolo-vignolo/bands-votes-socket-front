@@ -25,7 +25,7 @@ const HomePage = () => {
         </p>
       </div>
 
-      <h1>Band Namer</h1>
+      <h1>Band Names and chart </h1>
       <hr />
       <div className="row">
         <div className="col">
