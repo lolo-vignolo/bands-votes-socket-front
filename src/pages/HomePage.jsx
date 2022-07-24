@@ -14,9 +14,13 @@ const HomePage = () => {
         <p>
           Service status:
           {online ? (
-            <span className="text-success"> On-line</span>
+            <span className="text-success" style={{ fontWeight: '500' }}>
+              On-line
+            </span>
           ) : (
-            <span className="text-danger"> Off-line</span>
+            <span className="text-danger" style={{ fontWeight: '500' }}>
+              Off-line
+            </span>
           )}
         </p>
       </div>

@@ -52,9 +52,7 @@ export const BandCharts = () => {
           xAxes: [
             {
               ticks: {
-                autoSkip: false,
-
-                maxRotation: 0,
+                staked: true,
               },
             },
           ],
@@ -63,5 +61,10 @@ export const BandCharts = () => {
     });
   };
 
-  return <canvas id="myChart"></canvas>;
+  return (
+    <canvas
+      id="myChart"
+      style={{ height: '10rem', marginBottom: '3rem' }}
+    ></canvas>
+  );
 };
