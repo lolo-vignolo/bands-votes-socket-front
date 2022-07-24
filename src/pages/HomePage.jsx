@@ -9,7 +9,7 @@ const HomePage = () => {
   const { online } = state;
 
   return (
-    <div className="container">
+    <div className="container" style={{ marginBottom: '10rem ' }}>
       <div className="alert">
         <p>
           Service status:

@@ -64,7 +64,7 @@ export const BandCharts = () => {
   return (
     <canvas
       id="myChart"
-      style={{ height: '10rem', marginBottom: '3rem' }}
+      style={{ height: '7rem', marginBottom: '3rem' }}
     ></canvas>
   );
 };
